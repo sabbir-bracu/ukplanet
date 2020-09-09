@@ -1,0 +1,146 @@
+@keyframes display {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+}
+
+@keyframes display2 {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  /*width: 100vw;*/
+  height: 200px;
+  margin-top: 5px;
+}
+.pic-ctn2 {
+  position: relative;
+  /*width: 100vw;*/
+  height: 200px;
+  margin-top: 5px;
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
+  max-width: 50%;
+  height: auto;
+}
+.pic-ctn2 > img {
+  position: absolute;
+  top: 0;
+  right: calc(50% - 100px);
+  opacity: 0;
+  animation: display2 10s infinite;
+  max-width: 50%;
+  height: auto;
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+  height: 300px;
+  top: 40px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  height: 280px;
+  background: url('img/transparent.png');
+  background-repeat: repeat-x repeat-y;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  transition: 0.4s ease-out;
+  position: relative;
+}
+
+.card:not(:first-child) {
+  margin-left: 0px;
+}
+
+.card:hover {
+  transform: translateY(-20px);]
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out; 
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}

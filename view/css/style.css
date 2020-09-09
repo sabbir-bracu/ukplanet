@@ -1,0 +1,183 @@
+.navbar-form {
+	margin: 8px 0px;
+}
+
+.after-nav {
+	height: 50px;
+	width: 100%;
+	display: block;
+}
+
+.trending div {
+	margin-top: 15px;
+}
+
+.page_nav {
+	text-align: center;
+}
+
+ul.products-footer {
+	padding-left: 0px;
+}
+
+ul.products-footer li a {
+	text-decoration: none;
+}
+
+ul.products-footer li {
+	list-style: none;
+}
+
+ul.social {
+	padding-left: 0px;
+}
+
+ul.social li {
+	text-decoration: none;
+	float: left;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+
+ul.cards {
+	padding-left: 0px;
+}
+
+ul.cards li {
+	text-decoration: none;
+	float: left;
+	list-style-type: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+ul.social li a {
+	text-decoration: none;
+	color: grey;
+}
+
+.fa-facebook-square:hover {
+	color: #3B5998;
+}
+
+.fa-instagram:hover {
+	color: black;
+}
+
+.fa-twitter:hover {
+	color: #1DA1F2;
+}
+
+.fa-youtube:hover {
+	color: #E62117;
+}
+
+.fa-google-plus:hover {
+	color: #DB4437;
+}
+
+
+ul.customer {
+	padding-left: 0px;
+}
+
+ul.customer li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.navbar-brand {
+	padding: 0px 25px;
+}
+
+ul.contact {
+	padding-left: 0px;
+}
+
+ul.contact li {
+	text-decoration: none;
+	list-style-type: none;
+	margin-right: 10px;
+}
+
+body {
+	background: url('img/bg8.jpg') fixed;
+	background-repeat: repeat-x repeat-y;
+}
+
+.thumbnail {
+	background: url('img/transparent.png');
+	background-repeat: repeat-x repeat-y;
+}
+
+.category_title {
+	text-align: center;
+	margin: 10px auto;
+}
+
+.category_title h1 {
+	font-family: 'Oleo Script', cursive;
+	font-size: 60px;
+}
+
+.report_title {
+	font-family: 'Oleo Script', cursive;
+	font-size: 60px;
+}
+
+.preview {
+	padding-top: 20px;
+}
+
+.cen {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thum {
+	text-align: center;
+}
+.thum a {
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+
+.h-img {
+	max-width:100%;
+	height:auto;
+}
+
+
+.footer {
+	border-top: 3px solid #D8C59B;
+	margin-top: 20px;
+}
+
+.copyright {
+	text-align: center;
+	border-top: 1px solid #977726;
+	margin-top: 15px;
+	padding-top: 10px;
+}
+
+.report-main {
+	text-align: center;
+}
+
+
+@media (max-width: 480px){
+  
+  .custom-brand{
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+
+
