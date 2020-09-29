@@ -25,7 +25,7 @@
 	<table class="table table-bordered">
 
 		<?php 
-			include ('cart-list.php');
+			include ('../model/cart-list.php');
 			foreach ($items as $product_id => $product) {
 				 echo get_list_view_html($product_id,$product);
 			}

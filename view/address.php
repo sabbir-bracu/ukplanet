@@ -1,6 +1,6 @@
 <?php
    $title = "Address"; 
-   include ('connection.php');
+   include ('../controller/connection.php');
    include ('header.php') ;
    $btn_action = "delivery.php";
    $btn_name = "Proceed to Checkout";
@@ -45,7 +45,7 @@
     $Query2 = mysqli_query($db, $sql); 
     
     if ($Query) {
-      header('Location: http://' . $_SERVER['HTTP_HOST'] . '/ukplanet/orderComplete.php?id=' . $newOrderID);
+      header('Location: http://' . $_SERVER['HTTP_HOST'] . '/ukplanet/view/orderComplete.php?id=' . $newOrderID);
     }
     echo "New record has id: " . mysqli_insert_id($db);
     

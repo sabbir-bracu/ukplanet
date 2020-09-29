@@ -1,9 +1,28 @@
 <?php
   include ('../model/all_products.php');
-  $product_id = $_GET["id"];
+  $product_id = '14';
   $product = $products[$product_id];
   $title = "Order";
-  include ('header.php') ;
+
+
+    error_reporting(1);
+    session_start(); 
+
+    if (!isset($_SESSION['username'])) {
+      $_SESSION['msg'] = "You must log in first";
+      //header('location: login.php');
+    }
+    if (isset($_GET['logout'])) {
+      session_destroy();
+      unset($_SESSION['username']);
+      header("location: index.php");
+    }
+
+
+    if (isset($_POST['search'])) {
+      $keywords = $_POST["keywords"];
+    }
+  
 
   include ('../controller/connection.php');
 
@@ -57,9 +76,10 @@
     
 
     if ($Query) {
-      header('Location: orderComplete.php?id=' . $newOrderID);
+      
     }
     echo "New record has id: " . mysqli_insert_id($db);
+    echo '<br>Order Test Passed';
     
   }
 
@@ -80,11 +100,11 @@
           <td>
             <div class="col-lg-6 col-md-6 col-sm-6">
               <p>First Name:</p>
-              <input type="text" name="first-name">
+              <input type="text" name="first-name" value="Sabbir">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                       <p>Last Name:</p>
-              <input type="text" name="last-name">
+              <input type="text" name="last-name" value="Hossain">
             </div>
           </td>
         </tr>
@@ -93,11 +113,11 @@
           <td>
             <div class="col-lg-6 col-md-6 col-sm-6">
               <p>Telephone:</p>
-              <input type="text" name="telephone">
+              <input type="text" name="telephone" value="627172389">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                <p>Cell Phone:</p>
-              <input type="text" name="phone">
+              <input type="text" name="phone" value="01521412024">
             </div>
           </td>
         </tr>
@@ -106,7 +126,7 @@
           <td>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <p>Address*:</p>
-              <input type="text" name="address" class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+              <input type="text" name="address" class="col-lg-12 col-md-12 col-xs-12 col-sm-12" value="289/1, 3A, Gulbagh, Malibagh">
             </div>
           </td>
         </tr>
@@ -115,7 +135,7 @@
           <td>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <p>Address 2:</p>
-              <input type="text" name="address2" class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+              <input type="text" name="address2" class="col-lg-12 col-md-12 col-xs-12 col-sm-12" value="Dhaka 1217">
             </div>
           </td>
         </tr>
@@ -126,7 +146,7 @@
               <p>State:</p>
               <select name="state">
                 <option value="Please Select">Please Select</option>
-                <option value="Dhaka">Dhaka</option>
+                <option value="Dhaka" selected>Dhaka</option>
                 <option value="Chittagong">Chittagong</option>
                 <option value="Khulna">Khulna</option>
                 <option value="Barishal">Barishal</option>
@@ -138,10 +158,10 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
               <span>City: </span>
-              <input type="text" name="city">
+              <input type="text" name="city" value="Dhaka">
               <br>
               <span>Post Code: </span>
-              <input type="text" name="postCode">
+              <input type="text" name="postCode" value="1217">
             </div>
           </td>
         </tr>
@@ -154,8 +174,6 @@
 
 <!-- Calculation Panel -->
   <div class="col-lg-4">
-    <h4>Coupons</h4>
-    <input class="btn btn-default disabled" type="submit" value="Apply Coupons">
     <br>
     <table class="table table-bordered">
       <thead>
@@ -212,6 +230,3 @@
 </form>
   <!-- Calculation panel End -->
 </div>
-
-<?php include ('footer.php') ?>
-

@@ -1,0 +1,604 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pass",
+				"password"
+			],
+			[
+				"t_",
+				"t_subject"
+			],
+			[
+				"t",
+				"t_img"
+			],
+			[
+				"cur",
+				"currentPage"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"cone",
+				"confessions"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"add",
+				"addLoading"
+			],
+			[
+				"drop",
+				"dropLoading"
+			],
+			[
+				"loa",
+				"loader_icon"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"m",
+				"message"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"cop",
+				"copyFunction"
+			],
+			[
+				"se",
+				"selectedCourseId"
+			],
+			[
+				"bt",
+				"btnGroup"
+			],
+			[
+				"butt",
+				"buttonGroup"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"ma",
+				"margin-bottom\tproperty"
+			],
+			[
+				"show",
+				"showConsoleCode"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"hea",
+				"headerName"
+			],
+			[
+				"sel",
+				"selectedCourse"
+			],
+			[
+				"selec",
+				"selectedIndex"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"inpu",
+				"input-name"
+			],
+			[
+				"inp",
+				"input-id"
+			],
+			[
+				"ava",
+				"availability"
+			],
+			[
+				"orde",
+				"orderid"
+			],
+			[
+				"order",
+				"orders"
+			],
+			[
+				"Modi",
+				"modify_order"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"ad",
+				"address"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"q",
+				"Query"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"ord",
+				"orderStatus"
+			],
+			[
+				"or",
+				"orderStatus"
+			],
+			[
+				"S",
+				"SELECT"
+			],
+			[
+				"use",
+				"userID"
+			],
+			[
+				"ce",
+				"cell"
+			],
+			[
+				"tot",
+				"totalAmount"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"user",
+				"userID"
+			],
+			[
+				"addr",
+				"address"
+			],
+			[
+				"us",
+				"userID"
+			],
+			[
+				"_S",
+				"_SESSION"
+			],
+			[
+				"produc",
+				"product"
+			],
+			[
+				"mod",
+				"modifyQuery"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"onC",
+				"onclick\tAttr"
+			],
+			[
+				"my",
+				"mysql_query"
+			],
+			[
+				"las",
+				"last-name"
+			],
+			[
+				"fir",
+				"first-name"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"produ",
+				"product_id"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"bu",
+				"bulkPrice"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"image",
+				"imageArray"
+			],
+			[
+				"a",
+				"array\t$… = array (…)"
+			],
+			[
+				"im",
+				"img1"
+			],
+			[
+				"thum",
+				"thumb"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"mys",
+				"mysql_error"
+			],
+			[
+				"mysql_",
+				"mysql_query"
+			],
+			[
+				"mac",
+				"macbookpro"
+			],
+			[
+				"mae",
+				"margin-left\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"ca",
+				"carousel"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"fon",
+				"font-style\tproperty"
+			],
+			[
+				"fa",
+				"fa-2x"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet"
+	],
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/README.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Tests/newConfessionTest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Models/session/registerTest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Models/session/conn.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Views/signup.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Tests/signupTest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Models/session/register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Models/session/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Tests/loginTest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Views/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Views/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Controllers/newConfession.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/Models/newConfession.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/busa/busa.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/mvc/view/mbair.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mvc/view/mb.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mvc/view/accessories.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mvc/view/imac.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mvc/view/ipad.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mvc/view/iphone.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mvc/admin/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bracu/session/signup.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bracu/session/index.php",
+		"/Users/sabbir/Downloads/USIS Advising/liveShow.html",
+		"/Users/sabbir/Downloads/USIS Advising/removeShort.js",
+		"/Users/sabbir/Downloads/USIS Advising/addByRepeatEfficient.js",
+		"/Users/sabbir/Downloads/USIS Advising/repeatedCourse.js",
+		"/Users/sabbir/Downloads/USIS Advising/liveDropSimplified.js",
+		"/Users/sabbir/Downloads/USIS Advising/removeCourseUpdated.js",
+		"/Users/sabbir/Downloads/USIS Advising/all_courses.html",
+		"/Users/sabbir/Downloads/USIS Advising/live.html",
+		"/Users/sabbir/Downloads/USIS Advising/removeCourse.js",
+		"/Users/sabbir/Downloads/USIS Advising/swapnil.txt",
+		"/Users/sabbir/Downloads/USIS Advising/add_raw.js",
+		"/Users/sabbir/Downloads/USIS Advising/jscript.txt",
+		"/Users/sabbir/Downloads/USIS Advising/add.js",
+		"/Users/sabbir/Downloads/USIS Advising/BRAC University.htm",
+		"/Users/sabbir/Google Drive/Practice/Spring 2020/CSE712/Project_Work/nlp.py",
+		"/Users/sabbir/Desktop/ai.py",
+		"/Users/sabbir/Google Drive/Practice/Spring 2020/CSE712/nlp.py",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/ipad.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/css/carousel2.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/css/carousal.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/sorting.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/orders-list.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/cart-list.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/admin.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/manualOrder.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/all_products.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/adminLayout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/server.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/connection.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/bracu/gradelayout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/bracu/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/manageOrders.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/windows.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/iphone.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/imac.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/mb.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/search.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/accessories.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/mbpro.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/mbair.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/pagination.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/test.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/gallery.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/products.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/orderComplete.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/address.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/calc.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/delivery.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/payment.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/orders.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/temp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/panel.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/totalPrice.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/admin2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/admin/index.php",
+		"/Users/sabbir/Downloads/sparna/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/session/server.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/session/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/session/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/session/errors.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ukplanet/regiser.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 262.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 155.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mvc.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

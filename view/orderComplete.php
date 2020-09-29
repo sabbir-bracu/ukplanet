@@ -1,5 +1,5 @@
 <?php
-  include ('all_products.php');
+  include ('../model/all_products.php');
   $order_id = $_GET["id"];
 
    $title = "Order Complete"; 

@@ -10,7 +10,7 @@
 						</div>
 
 						<div class="col-lg-8"> 
-			      <a href="http://' . $_SERVER['HTTP_HOST'] . '/ukplanet/product.php?id=' . $product["id"] . '">
+			      <a href="http://' . $_SERVER['HTTP_HOST'] . '/ukplanet/view/product.php?id=' . $product["id"] . '">
               <h4>' . $product["brand"] . ' ' . $product["name"] .' ' . $product["year"] . '</h4>
             </a>
 							<p>Size: <a href="#">13"</a> Qty: <a href="#">1</a></p>
@@ -31,20 +31,11 @@
 
 	  $items = array();
 
-    include ('connection.php');
+    include('../controller/connection.php');
 
-    $userQuery = 'SELECT * from users where username = "' . $_SESSION['username'] . '"';
-    $userIDresult = mysqli_query($db,$userQuery);
-    while ($userIDrow = mysqli_fetch_array($userIDresult, MYSQLI_ASSOC)) {
-    	$userID = $userIDrow["id"];
-    };
-
-    $userID = (int) $userID;
+    include('../controller/order-list-controller.php');
 
 
-    $query = 'SELECT orderItems.productID, orders.orderStatus, orderItems.somoy from orderItems, orders 
-    where orders.id = orderItems.orderid and orderItems.userID = ' . $userID;
-    $result = mysqli_query($db,$query);
 
     $orderCnt = 0;
     while ($item_row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {

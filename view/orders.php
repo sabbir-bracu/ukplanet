@@ -9,7 +9,7 @@
 	<table class="table table-bordered">
 
 		<?php 
-			include ('orders-list.php');
+			include ('../model/orders-list.php');
 			foreach ($items as $product_id => $product) {
 				 echo get_list_view_html($product_id,$product);
 			}
